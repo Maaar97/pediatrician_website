@@ -81,7 +81,6 @@
               {% endif %}
               <div class="flex-caption">
                 <h2>{{ slide1_head|striptags }}</h2>{{ slide1_desc|striptags }}
-                <a class="frmore" href="{{ slide1_url|striptags }}">{{ 'Read More'|t }}</a>
               </div>
             {% endif %}
           </li>
@@ -93,19 +92,6 @@
               {% endif %}
               <div class="flex-caption">
                 <h2>{{ slide2_head|striptags }}</h2>{{ slide2_desc|striptags }}
-                <a class="frmore" href="{{ slide2_url|striptags }}">{{ 'Read More'|t }}</a>
-              </div>
-            {% endif %}
-          </li>
-          <li>
-            <img src="{{ slide3_image  }}"/>
-            {% if slide3_head or slide3_desc %}
-              {% if slide3_head %}
-                {{ slide3_head|striptags }}
-              {% endif %}
-              <div class="flex-caption">
-                <h2>{{ slide3_head|striptags }}</h2>{{ slide3_desc|striptags }}
-                <a class="frmore" href="{{ slide3_url|striptags }}">{{ 'Read More'|t }}</a>
               </div>
             {% endif %}
           </li>
